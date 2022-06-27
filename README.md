@@ -5,9 +5,11 @@
 - Implementation must employ layered architecture and classes
 - Have at least 20 procedurally generated items in your application at startup
 - Provide specification and tests for all non-UI classes and methods for the first functionality
-- Implement and use your own exception classes.
+- Implement and use your own exception classes
 - Implement **PyUnit test cases**
 - 95% unit test code coverage for all modules except the UI (use *PyCharm Professional*, the *[coverage](https://coverage.readthedocs.io/en/coverage-5.3/)* or other modules)
+- implement persistent storage for all entities using file-based repositories
+- implement a `settings.properties` file to configure your application
 
 ## Problem Statement
 ### Students Register Management
@@ -25,3 +27,6 @@ Create an application to:
     - Students with the best school situation, sorted in descending order of their aggregated average (the average between their average grades per discipline)
     - All disciplines at which there is at least one grade, sorted in descending order of the average grade(s) received by all students
 5. Unlimited undo/redo functionality. Each step will undo/redo the previous operation performed by the user. Undo/redo operations must cascade and have a memory-efficient implementation (no superfluous list copying)
+6. You must implement two additional repository sets: one using text files for storage, and one using binary files (e.g. using object serialization with [Pickle](https://docs.python.org/3.8/library/pickle.html)).
+7. The program must work the same way using in-memory repositories, text-file repositories and binary file repositories.
+8. The decision of which repositories are employed, as well as the location of the repository input files will be made in the program’s `settings.properties` file.
