@@ -1,0 +1,20 @@
+34 React
+3 Physical Education
+38 Math
+43 Computer Science Architecture
+26 C++
+18 Fundamentals of programming
+1 Geometry
+11 Music
+19 Organic Chemistry
+24 History
+40 CSS3
+13 Painting
+37 Competitive Programming
+5 Laravel
+20 Analysis
+27 Website Development
+39 English
+42 JavaScript
+6 AI
+41 Vue JS
